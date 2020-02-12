@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Select, { components } from 'react-select';
+import Select, { components } from 'react-select-reborn';
 import { colourOptions } from '../data';
 
 const ValueContainer = ({ children, ...props }) => (

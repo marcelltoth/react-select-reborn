@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Select from 'react-select';
+import Select from 'react-select-reborn';
 import { colourOptions } from '../data';
 
 type State = {

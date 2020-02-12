@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Select, { components } from 'react-select';
+import Select, { components } from 'react-select-reborn';
 import { colourOptions, groupedOptions } from '../data';
 import EditorPanelIcon from '@atlaskit/icon/glyph/editor/panel';
 import Tooltip from '@atlaskit/tooltip';

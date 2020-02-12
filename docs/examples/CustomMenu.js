@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import Select, { components } from 'react-select';
+import Select, { components } from 'react-select-reborn';
 import { colourOptions, groupedOptions } from '../data';
 
 function getLength(options) {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Tooltip from '@atlaskit/tooltip';
-import Select, { components } from 'react-select';
+import Select, { components } from 'react-select-reborn';
 import { colourOptions } from '../data';
 const msgStyles = {
   background: colourOptions[2].color,

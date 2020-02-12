@@ -5,7 +5,7 @@ import { Component, type Node } from 'react';
 import { jsx } from '@emotion/core';
 import { withRouter } from 'react-router-dom';
 
-import Select from 'react-select';
+import Select from 'react-select-reborn';
 import type { RouterProps } from '../types';
 import GitHubButton from './GitHubButton';
 import TwitterButton from './TwitterButton';

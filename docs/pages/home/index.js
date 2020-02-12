@@ -62,7 +62,7 @@ export default function Home() {
 
   ~~~jsx
   import React, { Component } from 'react'
-  import Select from 'react-select'
+  import Select from 'react-select-reborn'
 
   const options = [
     { value: 'chocolate', label: 'Chocolate' },
@@ -91,7 +91,7 @@ export default function Home() {
   If no arguments are passed, built-in components are wrapped instead.
 
   ~~~jsx
-  import makeAnimated from 'react-select/animated';
+  import makeAnimated from 'react-select-reborn/animated';
   ~~~
 
   Remove the values below to see them in action.
@@ -136,7 +136,7 @@ export default function Home() {
   Use the Async component to load options from a remote source as the user types.
 
   ~~~jsx
-  import Async from 'react-select/async';
+  import Async from 'react-select-reborn/async';
   ~~~
 
   ${(
@@ -165,7 +165,7 @@ export default function Home() {
   The Creatable component enables users to create new options along with choosing existing options.
 
   ~~~jsx
-  import Creatable from 'react-select/creatable';
+  import Creatable from 'react-select-reborn/creatable';
   ~~~
 
   ${(

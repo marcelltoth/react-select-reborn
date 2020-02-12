@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Select, { createFilter } from 'react-select';
+import Select, { createFilter } from 'react-select-reborn';
 import { colourOptions } from '../data';
 import { Note } from '../styled-components';
 

@@ -111,7 +111,7 @@ export default function Components() {
 
         ~~~jsx
         import React from 'react';
-        import Select from 'react-select';
+        import Select from 'react-select-reborn';
 
         const CustomOption = ({ innerProps, isDisabled }) =>
           !isDisabled ? (

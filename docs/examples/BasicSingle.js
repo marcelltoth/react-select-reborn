@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 
-import Select from 'react-select';
+import Select from 'react-select-reborn';
 import { colourOptions } from '../data';
 import { Note } from '../styled-components';
 

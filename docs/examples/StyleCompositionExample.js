@@ -1,6 +1,6 @@
 import React from 'react';
 import { css } from 'emotion';
-import Select from 'react-select';
+import Select from 'react-select-reborn';
 import { colourOptions } from '../data';
 
 const Option = (props: OptionProps) => {

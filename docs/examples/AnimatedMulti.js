@@ -2,8 +2,8 @@
 
 import React from 'react';
 
-import Select from 'react-select';
-import makeAnimated from 'react-select/animated';
+import Select from 'react-select-reborn';
+import makeAnimated from 'react-select-reborn/animated';
 import { colourOptions } from '../data';
 
 const animatedComponents = makeAnimated();

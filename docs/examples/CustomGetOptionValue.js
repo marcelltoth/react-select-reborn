@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Select from 'react-select';
+import Select from 'react-select-reborn';
 import { dogOptions } from '../data';
 
 export default function CustomGetOptionValue() {

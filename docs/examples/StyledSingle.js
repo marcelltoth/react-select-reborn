@@ -2,7 +2,7 @@ import React from 'react';
 import chroma from 'chroma-js';
 
 import { colourOptions } from '../data';
-import Select from 'react-select';
+import Select from 'react-select-reborn';
 
 const dot = (color = '#ccc') => ({
   alignItems: 'center',

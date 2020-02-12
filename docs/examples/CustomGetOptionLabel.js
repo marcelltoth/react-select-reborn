@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Select from 'react-select';
+import Select from 'react-select-reborn';
 import { flavourOptions } from '../data';
 
 export default class CustomGetOptionLabel extends Component<*> {

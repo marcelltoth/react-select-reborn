@@ -39,7 +39,7 @@ Then use it in your app:
 
 ```js
 import React from 'react';
-import Select from 'react-select';
+import Select from 'react-select-reborn';
 
 const options = [
   { value: 'chocolate', label: 'Chocolate' },
