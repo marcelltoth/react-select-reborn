@@ -1,7 +1,7 @@
-[![NPM](https://img.shields.io/npm/v/react-select.svg)](https://www.npmjs.com/package/react-select)
-[![CircleCI](https://circleci.com/gh/JedWatson/react-select/tree/master.svg?style=shield)](https://circleci.com/gh/JedWatson/react-select/tree/master)
-[![Coverage Status](https://coveralls.io/repos/JedWatson/react-select/badge.svg?branch=master&service=github)](https://coveralls.io/github/JedWatson/react-select?branch=master)
-[![Supported by Thinkmill](https://thinkmill.github.io/badge/heart.svg)](http://thinkmill.com.au/?utm_source=github&utm_medium=badge&utm_campaign=react-select)
+[![NPM](https://img.shields.io/npm/v/react-select-reborn.svg?style=for-the-badge)](https://www.npmjs.com/package/react-select-reborn)
+[![CircleCI](https://img.shields.io/circleci/build/github/marcelltoth/react-select-reborn/master?style=for-the-badge)](https://circleci.com/gh/JedWatson/react-select/tree/master)
+[![Coverage Status](https://img.shields.io/coveralls/github/marcelltoth/react-select-reborn?style=for-the-badge)](https://coveralls.io/github/JedWatson/react-select?branch=master)
+
 
 # React-Select-Reborn
 
