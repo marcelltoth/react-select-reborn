@@ -1,9 +1,9 @@
 {
-  "name": "@react-select/monorepo",
+  "name": "@react-select-reborn/monorepo",
   "private": true,
   "version": "1.0.0",
   "description": "A Select control built with and for ReactJS",
-  "author": "Jed Watson",
+  "author": "Marcell Toth",
   "license": "MIT",
   "repository": {
     "type": "git",
