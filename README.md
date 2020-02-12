@@ -3,7 +3,9 @@
 [![Coverage Status](https://coveralls.io/repos/JedWatson/react-select/badge.svg?branch=master&service=github)](https://coveralls.io/github/JedWatson/react-select?branch=master)
 [![Supported by Thinkmill](https://thinkmill.github.io/badge/heart.svg)](http://thinkmill.com.au/?utm_source=github&utm_medium=badge&utm_campaign=react-select)
 
-# React-Select
+# React-Select-Reborn
+
+**This is a fork of the original [`react-select`](https://github.com/JedWatson/react-select) repository**. (See *Why the fork* below.)
 
 The Select control for [React](https://reactjs.com). Initially built for use in [KeystoneJS](http://www.keystonejs.com).
 
@@ -21,6 +23,10 @@ Features include:
 - Controllable state props and modular architecture
 - Long-requested features like option groups, portal support, animation, and more
 
+## Upgrading from `react-select`?
+
+This project aims to maintain semver compatibility with `react-select` v3. What this means is if you were using `react-select` v3, you should not expect breaking changes until `react-select-reborn` hits v4.
+
 ## Using an older version?
 
 - [v2 to v3 upgrade guide](https://github.com/JedWatson/react-select/issues/3585)
@@ -32,14 +38,14 @@ Features include:
 The easiest way to use react-select is to install it from npm and build it into your app with Webpack.
 
 ```
-yarn add react-select
+yarn add react-select-reborn
 ```
 
 Then use it in your app:
 
 ```js
 import React from 'react';
-import Select from 'react-select';
+import Select from 'react-select-reborn';
 
 const options = [
   { value: 'chocolate', label: 'Chocolate' },
@@ -128,7 +134,11 @@ Thank you to everyone who has contributed to this project. It's been a wild ride
 
 If you like React Select, you should [follow me on twitter](https://twitter.com/jedwatson)
 
-Shout out to [Joss Mackison](https://github.com/jossmac), [Charles Lee](https://github.com/gwyneplaine), [Ben Conolly](https://github.com/Noviny), [Dave Brotherstone](https://github.com/bruderstein), [Brian Vaughn](https://github.com/bvaughn), and the Atlassian Design System team ❤️
+Shout out to [Jed Watson](https://github.com/JedWatson), the original creator of react-select, [Joss Mackison](https://github.com/jossmac), [Charles Lee](https://github.com/gwyneplaine), [Ben Conolly](https://github.com/Noviny), [Dave Brotherstone](https://github.com/bruderstein), [Brian Vaughn](https://github.com/bvaughn), and the Atlassian Design System team ❤️
+
+## Why the fork
+
+Unfortunately `react-select` seemed to be abandoned by its maintainers. Perfectly good pull requests were not reviewed or merged, which is a sad situation given the numerious users of the library. This is documented in detail here: https://github.com/JedWatson/react-select/issues/3910 The aim of this project is to bring `react-select` back to life, fix the outstanding issues (at the time of writing this there are 1278 open issues on `react-select`) and keep ever improving on this outstanding tool many rely on day to day.
 
 ## License
 
