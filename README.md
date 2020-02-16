@@ -5,7 +5,20 @@
 
 # React-Select-Reborn
 
-**This is a fork of the original [`react-select`](https://github.com/JedWatson/react-select) repository**. (See *Why the fork* below.)
+## Reborn?
+
+**This is a fork of the original [`react-select` repository](https://github.com/JedWatson/react-select)**, with the aim to bring it back to life by pulling in the abandoned Pull Requests and fixing the outstanding issues of `react-select`.
+
+## Why the fork
+
+Unfortunately `react-select` seemes to be abandoned by its maintainers. Perfectly good pull requests are not reviewed or merged, which is a sad situation given the numerious users of the library. This is documented in detail here: https://github.com/JedWatson/react-select/issues/3910 The aim of this project is to bring `react-select` back to life, fix the outstanding issues (at the time of writing this there are 1278 open issues on `react-select`) and keep improving this outstanding tool many rely on day to day.
+
+## Upgrading from `react-select` v3?
+
+This project aims to maintain semver compatibility with `react-select` v3. What this means is if you were using `react-select` v3, you should not expect breaking changes until `react-select-reborn` hits v4.
+
+
+# The component
 
 The Select control for [React](https://reactjs.com). Initially built for use in [KeystoneJS](http://www.keystonejs.com).
 
@@ -23,15 +36,8 @@ Features include:
 - Controllable state props and modular architecture
 - Long-requested features like option groups, portal support, animation, and more
 
-## Upgrading from `react-select`?
 
-This project aims to maintain semver compatibility with `react-select` v3. What this means is if you were using `react-select` v3, you should not expect breaking changes until `react-select-reborn` hits v4.
 
-## Using an older version?
-
-- [v2 to v3 upgrade guide](https://github.com/JedWatson/react-select/issues/3585)
-- [v1 to v2 upgrade guide](https://react-select.com/upgrade-guide)
-- React Select v1 documentation and examples are available at [v1.react-select.com](https://v1.react-select.com)
 
 # Installation and usage
 
@@ -128,6 +134,13 @@ Check the docs for more information on:
 - [Allowing users to create new options](https://www.react-select.com/creatable)
 - [Advanced use-cases](https://www.react-select.com/advanced)
 
+
+## Upgrading from an older version
+
+- [v2 to v3 upgrade guide](https://github.com/JedWatson/react-select/issues/3585)
+- [v1 to v2 upgrade guide](https://react-select.com/upgrade-guide)
+- React Select v1 documentation and examples are available at [v1.react-select.com](https://v1.react-select.com)
+
 # Thanks
 
 Thank you to everyone who has contributed to this project. It's been a wild ride.
@@ -136,9 +149,6 @@ If you like React Select, you should [follow me on twitter](https://twitter.com/
 
 Shout out to [Jed Watson](https://github.com/JedWatson), the original creator of react-select, [Joss Mackison](https://github.com/jossmac), [Charles Lee](https://github.com/gwyneplaine), [Ben Conolly](https://github.com/Noviny), [Dave Brotherstone](https://github.com/bruderstein), [Brian Vaughn](https://github.com/bvaughn), and the Atlassian Design System team ❤️
 
-## Why the fork
-
-Unfortunately `react-select` seemed to be abandoned by its maintainers. Perfectly good pull requests were not reviewed or merged, which is a sad situation given the numerious users of the library. This is documented in detail here: https://github.com/JedWatson/react-select/issues/3910 The aim of this project is to bring `react-select` back to life, fix the outstanding issues (at the time of writing this there are 1278 open issues on `react-select`) and keep ever improving on this outstanding tool many rely on day to day.
 
 ## License
 
