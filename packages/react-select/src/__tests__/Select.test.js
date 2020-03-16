@@ -2167,6 +2167,35 @@ test('to only render groups with at least one match when filtering', () => {
   expect(selectWrapper.find('Group').find('Option').length).toBe(1);
 });
 
+test('to render nested groups if there is any', () => {
+  const options = [
+    {
+      label: 'group 1',
+      options: [
+        {
+          label: 'nested group 1',
+          options: [
+            {
+              label: 'nested 1',
+              value: 1
+            },
+            {
+              label: 'nested 2',
+              value: 2
+            }
+          ]
+        }
+      ],
+    }
+  ];
+  const selectWrapper = mount(
+    <Select options={options} menuIsOpen inputValue="" />
+  );
+
+  expect(selectWrapper.find('Group').length).toBe(2);
+  expect(selectWrapper.find('Group').find('Option').length).toBe(2);
+});
+
 test('not render any groups when there is not a single match when filtering', () => {
   const options = [
     {
