@@ -8,8 +8,8 @@
 
 ### Patch Changes
 
-- [414342c](https://github.com/marcelltoth/react-select-reborn/commit/414342c8354471a86dac925a6e079f2eb73bbb2e) [#9](https://github.com/marcelltoth/react-select-reborn/pull/9) Thanks [@egertaia](https://github.com/egertaia)! - Fix for not focusing the selected value when the menu opens
-- [414342c](https://github.com/marcelltoth/react-select-reborn/commit/414342c8354471a86dac925a6e079f2eb73bbb2e) [#9](https://github.com/marcelltoth/react-select-reborn/pull/9) Thanks [@egertaia](https://github.com/egertaia)! - Fixing regressed change - tab should move to next dialog
+- [67ec605](https://github.com/marcelltoth/react-select-reborn/commit/67ec60563f0f8b69cb883e0a510e0b237db5527a) [#3](https://github.com/marcelltoth/react-select-reborn/pull/3) Thanks [@Tirzono](https://github.com/Tirzono)! - Fix for not focusing the selected value when the menu opens
+- [56ec0c8](https://github.com/marcelltoth/react-select-reborn/commit/56ec0c8dea1615da3675a2fd006e061e7b30e09b) [#6](https://github.com/marcelltoth/react-select-reborn/pull/6) Thanks [@srevenant](https://github.com/srevenant)! - Fixing regressed change - tab should move to next dialog
 
 ## 3.1.0
 
