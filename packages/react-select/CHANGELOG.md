@@ -1,5 +1,16 @@
 # react-select
 
+## 3.2.0
+
+### Minor Changes
+
+- [414342c](https://github.com/marcelltoth/react-select-reborn/commit/414342c8354471a86dac925a6e079f2eb73bbb2e) [#9](https://github.com/marcelltoth/react-select-reborn/pull/9) Thanks [@egertaia](https://github.com/egertaia)! - Added support for nested group options
+
+### Patch Changes
+
+- [414342c](https://github.com/marcelltoth/react-select-reborn/commit/414342c8354471a86dac925a6e079f2eb73bbb2e) [#9](https://github.com/marcelltoth/react-select-reborn/pull/9) Thanks [@egertaia](https://github.com/egertaia)! - Fix for not focusing the selected value when the menu opens
+- [414342c](https://github.com/marcelltoth/react-select-reborn/commit/414342c8354471a86dac925a6e079f2eb73bbb2e) [#9](https://github.com/marcelltoth/react-select-reborn/pull/9) Thanks [@egertaia](https://github.com/egertaia)! - Fixing regressed change - tab should move to next dialog
+
 ## 3.1.0
 
 ### Minor Changes
