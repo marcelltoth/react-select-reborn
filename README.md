@@ -1,3 +1,13 @@
+># Archived!
+>
+>Archived since `react-select` started getting updates again.
+
+
+
+
+
+
+
 [![NPM](https://img.shields.io/npm/v/react-select-reborn.svg?style=for-the-badge)](https://www.npmjs.com/package/react-select-reborn)
 [![CircleCI](https://img.shields.io/circleci/build/github/marcelltoth/react-select-reborn/master?style=for-the-badge)](https://circleci.com/gh/JedWatson/react-select/tree/master)
 [![Coverage Status](https://img.shields.io/coveralls/github/marcelltoth/react-select-reborn?style=for-the-badge)](https://coveralls.io/github/JedWatson/react-select?branch=master)
